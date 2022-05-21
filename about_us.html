@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MakePhoto | About</title>
+    <style>
+
+    p span {
+    display: flex;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-decoration-line: underline;
+    text-decoration-thickness: 4px;
+  }
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    max-width: 500px;
+    min-height: 400px;
+    background: #1b1c1e;
+    padding: 30px;
+    box-sizing: border-box;
+    color: #FFF;
+    margin:20px;
+    box-shadow: 0px 2px 18px -4px rgba(0,0,0,0.75);
+    border-radius: 20px;
+}
+
+.card-content{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-btn{
+    all: unset;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #fff;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 10px;
+    font-weight: 600;
+    transition: all 0.5s;
+    cursor: pointer;
+    letter-spacing: 1.2px;
+    font-family: "Poppins", sans-serif;
+}
+.card-btn:hover{
+   color:#1b1c1e;
+   background: #fff;
+}
+
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <section>
+        <nav class="navbar">
+            <!-- LOGO -->
+            <div class="logo"><a href="index.html">MakePhoto📸</a></div>
+            <!-- NAVIGATION MENU -->
+            <ul class="nav-links">
+              <!-- USING CHECKBOX HACK -->
+              <input type="checkbox" id="checkbox_toggle" />
+              <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+              <!-- NAVIGATION MENUS -->
+              <div class="menu">
+                <li><a href="services.html" class="menu-btn">Services</a></li>
+                <li><a href="gallery.html" class="menu-btn">Gallery</a></li>
+                <li><a href="about_us.html" class="menu-btn">About</a></li>
+                <li><a href="contact.html" class="menu-btn">Contact</a></li>
+              </div>
+            </ul>
+          </nav>
+    </section>
+    
+        <!-- about section start -->
+        <section>
+            <div class="home" id="home"></div>
+                <div class="max-width">
+                    <br></br>
+                    <section>
+                        <p><span>About Us</span></p>
+                    </section>
+                    <br>
+                    <div class="wrapper">
+                        <div class="card">
+                            <!-- <h3 class="card-title">PHOTOGRAPHY</h3> -->
+                                <br>
+                               <p class="card-content">We have been serving a wide range of people from the world of corporate, entertainment, sports and even more 
+                                   through our photography and videography skills here in volta region and beyond since 2017.</p>
+                               <br>
+                               <p><span>***</span></p>
+                               <br>
+                                   <p class="card-content">We would like to invite you personally to stop by our studio
+                                to come have a feel of our photo shoot and other amazing things we are doing with our cameras.</p>
+                            <br>
+                            <br>
+                            <button class="card-btn"><a href="contact.html">HIRE US</a></button>
+                            
+                            </div>
+                    </div>
+                </div>
+            </section>
+
+        <br></br>
+    <!-- footer section start -->
+        <footer>
+        <span>Created with ❤️ in Ghana.</span>
+        </footer>
+
+</body>
+</html>
