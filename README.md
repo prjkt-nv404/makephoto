@@ -2,4 +2,4 @@
 
 a school project work for TellDem
 
-check it out : https://makephoto.w3spaces.com
+check it out : https://makephotos.web.app
